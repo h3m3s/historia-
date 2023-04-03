@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Josefin+Sans&family=Poppins:ital,wght@0,200;1,500&family=Roboto:wght@300&display=swap');
+
+body {
+    margin: 0;
+    background-image: url("tlo.jpg");
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.head {
+    width: 100%;
+    height: 8vw;
+    background-color: rgb(99, 0, 0);
+    box-shadow: 0px 0px 33px 19px rgba(0, 0, 0, 1);
+    color: rgb(255, 255, 255);
+    font-size: 6vw;
+    text-shadow: 5px 5px 17px rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+}
+
+.holder {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 14vw;
+    gap: 80px;
+    margin-bottom: 16vh;
+}
+
+.note {
+    min-width: 100px;
+    width: 400px;
+    min-height: 675px;
+    max-height: fit-content;
+    background-color: rgb(209, 209, 209);
+    background-size: cover;
+    box-shadow: 0px 0px 33px 19px rgba(0, 0, 0, 1);
+    margin: 15px;
+    border-radius: 10px;
+    border: 10px double rgb(99, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    font-size: 25px;
+    overflow: scroll;
+}
+
+.tabel {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.imag {
+    width: 200px;
+    min-width: 1px;
+    border: 5px dotted rgb(99, 0, 0);
+}
+
+.imagch {
+    width: 170px;
+    min-width: 1px;
+    border: 5px dotted rgb(99, 0, 0);
+}
+
+.note2 {
+    min-width: 230px;
+    width: 75%;
+    min-height: fit-content;
+    height: fit-content;
+    background-color: rgb(99, 0, 0);
+    background-size: cover;
+    box-shadow: 0px 0px 33px 19px rgba(0, 0, 0, 1);
+    border: 10px double rgb(209, 209, 209);
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    overflow: scroll;
+    font-size: 28px;
+}
+
+.note::-webkit-scrollbar {
+    background-color: red;
+    width: 3px;
+    height: 3px;
+}
+
+.note::-webkit-scrollbar-track {
+    background-color: rgb(209, 209, 209);
+    width: 3px;
+}
+
+.note::-webkit-scrollbar-thumb {
+    background-color: rgb(53, 10, 10);
+    width: 3px;
+}
+
+.note2::-webkit-scrollbar {
+    background-color: red;
+    width: 3px;
+    height: 3px;
+}
+
+.note2::-webkit-scrollbar-track {
+    background-color: rgb(209, 209, 209);
+    width: 3px;
+}
+
+.note2::-webkit-scrollbar-thumb {
+    background-color: rgb(53, 10, 10);
+    width: 3px;
+}
+
+.note3 {
+    min-width: 100px;
+    width: 600px;
+    min-height: 675px;
+    max-height: fit-content;
+    background-color: rgb(209, 209, 209);
+    background-size: cover;
+    box-shadow: 0px 0px 33px 19px rgba(0, 0, 0, 1);
+    margin: 15px;
+    border-radius: 10px;
+    border: 10px double rgb(99, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    font-size: 25px;
+    overflow: scroll;
+}
+
+.note3::-webkit-scrollbar {
+    background-color: red;
+    width: 3px;
+    height: 3px;
+}
+
+.note3::-webkit-scrollbar-track {
+    background-color: rgb(209, 209, 209);
+    width: 3px;
+}
+
+.note3::-webkit-scrollbar-thumb {
+    background-color: rgb(53, 10, 10);
+    width: 3px;
+}
+.foot {
+    width: 70%;
+    height: 4vw;
+    background-color: rgb(99, 0, 0);
+    box-shadow: 0px 0px 20px 5px rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 4vw;
+    text-shadow: 5px 5px 17px rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    border-radius: 1vw;
+    border: 2px solid white;
+}
